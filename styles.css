@@ -1,0 +1,159 @@
+body {
+    background-color:#F3F5FC;
+}
+
+.logo {
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+.titulo {
+    color: rgb(185, 190, 194);
+    padding-top: 10px;
+    padding-left: 53px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.espacio1 {
+    background-color:#F3F5FC;
+}
+
+.texto-ain {
+    background-color:#F3F5FC; 
+    border-color: none;
+    border-style: none;
+    border-color: Transparent;
+    overflow: auto;
+    outline: none;
+    font-size: 25px;
+    padding-top: 100px;
+    padding-left: 240px;
+    height: 450px;
+    width: 500px;
+}
+
+.aviso {
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 15px;
+    padding-left: 280px;
+    color: grey;
+}
+
+.encrypt {  
+   background-color: #0A3871;
+   height: 55px;
+   font-size: 25px;
+   width: 220px;
+   border-radius: 24px;
+   border-color: grey;
+   text-align: center;
+}
+
+.decrypt{
+   background-color: #D8DFE8;
+    height: 55px;
+    font-size: 25px;
+    width: 220px;
+    border-radius: 24px;
+    border-color: grey;
+    text-align: center;
+}
+
+.botones {
+    padding-left: 230px;
+}
+
+.espacio2 {
+    position: absolute;
+    width: 400px;
+    height: 800px;
+    left: 1000px;
+    top: 40px;
+    background:whitesmoke;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+
+.persona {
+    position: absolute;
+    width: 336px;
+    height: 304px;
+    top: 123px;
+}
+
+.texto-e{
+    margin-top: 120%;
+    color: grey;
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+}
+
+.atexto-out {
+    padding: 15px;
+    text-align: center;
+}
+
+.texto-ed {
+    background-color: whitesmoke; 
+    border-color: none;
+    border-style: none;
+    border-color: Transparent;
+    overflow: auto;
+    outline: none;
+    text-align: center;
+    font-size: 15px;
+}
+
+.btn-copiar {
+    background-color: whitesmoke;
+    height: 60px;
+    font-size: 15px;
+    width: 160px;
+    border-radius: 24px;
+    margin-left: 31%;
+    border-color: grey;
+    display: none;
+}
+
+/* en desarrollo
+For mobile phones: 
+[class*="col-"] {
+    width: 100%;
+  }
+ 
+  @media only screen and (min-width: 600px) {
+     For tablets: 
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+  }
+  @media only screen and (min-width: 768px) {
+    /* For desktop: 
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
+
+  */
+

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Challenge 1 Alura</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="styles.css">
+        <script src="codes.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <div class="logo">
+                <img src="Imagenes/Logo.png" id="logo" alt="Logo de Alura">
+            </div>
+            <div>
+                <p class="titulo">Encriptador</p> 
+            </div>
+        </header>
+
+            <div class="espacio1">
+                <div class="area-in">
+                    <textarea id="texto-in" cols="50" row="15" class="texto-ain" placeholder="Ingresa el texto aquí"></textarea>
+                </div>
+                <div>
+                    <p class="aviso">Importante! Sólo minúsculas sin acentos</p>
+                </div>
+                <div class="botones">
+                    <button type="submit" id="encriptar" class="encrypt" onclick="encriptar()">Encriptar</button>
+                    <button type="submit" id="desencriptar" class="decrypt" onclick="desencriptar()">Desencriptar</button>
+                </div>
+            </div>
+
+            <div class="espacio2">
+                <div class="persona">
+                    <img src="Imagenes/Persona.png" id="persona" alt="Muñeco">
+                </div>
+
+                <div id="texto-escondido">
+                    <p class="texto-e">Ningún mensaje fue encontrado</p>
+                </div>
+
+                <div class="area-out">
+                    <div class="atexto-out">
+                    <textarea cols="30" row="8" id="texto-out" class="texto-ed" placeholder="Ingrese el texto que desee Encriptar o Desencriptar"></textarea>
+                    </div>
+                    <div>
+                    <button onclick="copiarTexto()" id="boton-copiar" class="btn-copiar">Copiar</button>
+                    </div>
+                </div>
+            </div>
+    
+    </body>
+</html>
+    
+   
